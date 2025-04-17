@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bababa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-white {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 700px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-white h1 {
+  font-size: 2.2em;
+  color: #575f7d;
+  margin-bottom: 20px;
+}
+
+.card-white h2 {
+  font-size: 1.6em;
+  color: #7d7d7d;
+  margin-bottom: 10px;
+}
+
+.card-white p {
+  font-size: 1.1em;
+  color: #575f7d;
+  line-height: 1.6;
+}
+
+.card-white img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+  border: 2px solid #ccc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5146e1;
+}
+
+.highlight {
+  color: #6ecb7e;
+  font-weight: bold;
+}
